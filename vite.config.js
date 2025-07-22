@@ -52,6 +52,6 @@ export default defineConfig(({ command }) => {
         },
       },
     },
-    base: '/claruno',
+    base: '/consultana',
   };
 });
