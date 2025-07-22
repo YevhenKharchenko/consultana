@@ -1,0 +1,145 @@
+.resources-section {
+  padding-bottom: 40px;
+
+  @include media(desktop) {
+    padding-bottom: 96px;
+  }
+}
+
+.resources-subtitle {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #1c1c1c;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+}
+
+.resources-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.resources-text-wrapper {
+}
+
+.resources-items-title {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #182c49;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.resources-items-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    &:nth-child(4) {
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.resources-items-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1c1c1c;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.resources-download-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-icon {
+  @include media(desktop) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.resources-blog-title {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #182c49;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+.resources-blog-wrapper {
+  &:not(:last-child) {
+    margin-bottom: 26px;
+  }
+}
+
+.resources-blog-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1c1c1c;
+  margin-bottom: 26px;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.resources-blog-link {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #1c1c1c;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+
+.resources-img {
+  @include media(desktop) {
+    min-width: 762px;
+  }
+}

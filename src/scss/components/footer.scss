@@ -1,0 +1,120 @@
+.footer {
+  background: #d9d9d9;
+}
+
+.footer-bg-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @include media(desktop) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(../img/footer/footer-dots.png),
+      url(../img/footer/footer-triangle.png),
+      url(../img/footer/footer-square.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom 0px right 0px, top 34px right 188px,
+      bottom 20px right 370px;
+  }
+}
+
+.footer-content-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    gap: 131px;
+  }
+}
+
+.footer-logo-wrapper {
+  margin-bottom: 26px;
+
+  @include media(desktop) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 0;
+  }
+}
+
+.footer-logo-link {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.footer-top-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #1c1c1c;
+
+  @include media(desktop) {
+    font-size: 16px;
+    text-align: left;
+    max-width: 315px;
+  }
+}
+
+.footer-nav {
+  margin-bottom: 26px;
+
+  @include media(desktop) {
+    margin-bottom: 34px;
+  }
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-list-item {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #1c1c1c;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+
+.footer-link {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #1c1c1c;
+  transition: all 0.3s ease-in-out;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+
+  &:hover,
+  &:focus {
+  }
+}
+
+.footer-bottom-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #1c1c1c;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,97 @@
+.header {
+  background: #f0e1d8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+
+  @include media(desktop) {
+  }
+}
+
+.header-bg-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  @include media(desktop) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../img/hero/hero-bg-desk.png);
+    background-repeat: no-repeat;
+    background-position: top -20px right 0px;
+    background-size: auto;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.header-container {
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include media(desktop) {
+    justify-content: start;
+    gap: 132px;
+  }
+}
+
+.header-logo-link {
+}
+
+.header-logo-icon {
+  @include media(desktop) {
+    width: 203px;
+    height: 41px;
+  }
+}
+
+.nav-list {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+  }
+}
+
+.nav-list-item {
+  padding: 10px 0;
+}
+
+.nav-list-link {
+  padding: 10px;
+  border-radius: 15px;
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &.active {
+    border: 1px solid #914b21;
+  }
+}
+
+.nav-list-link.active {
+  border: 1px solid #914b21;
+}
+
+.nav-btn {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    display: none;
+  }
+}

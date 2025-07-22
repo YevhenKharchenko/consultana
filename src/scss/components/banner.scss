@@ -1,0 +1,117 @@
+.cookie-banner-section {
+  background: #e3b497;
+  border-radius: 20px 20px 0 0;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: none;
+  z-index: 100;
+  display: none;
+
+  @include media(desktop) {
+    padding: 40px 60px;
+    max-width: 1440px;
+  }
+}
+
+.cookie-banner-content-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.cookie-banner-text-wrapper {
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+  }
+}
+
+.cookie-banner-title {
+  font-family: 'Libre Caslon Display', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #1c1c1c;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 64px;
+  }
+}
+
+.cookie-banner-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1c1c1c;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.cookie-banner-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    gap: 32px;
+  }
+}
+
+.cookie-accept-btn {
+  background: #9bc9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 16px 32px;
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #f8f8f8;
+  width: 100%;
+  max-width: 262px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    max-width: 309px;
+  }
+}
+
+.cookie-decline-btn {
+  background: #638cbc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 16px 32px;
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f8f8f8;
+  width: 100%;
+  max-width: 262px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    max-width: 309px;
+  }
+}
+
+.show-cookie-banner {
+  display: block;
+}

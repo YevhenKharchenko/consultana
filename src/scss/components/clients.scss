@@ -1,0 +1,71 @@
+.clients-section {
+}
+
+.clients-bg-wrapper {
+  padding-bottom: 40px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/clients/clients-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top 0px right 0px;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-bottom: 96px;
+    max-width: 1440px;
+    background-image: url(../img/clients/clients-bg-desk.png);
+  }
+}
+
+.clients-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1c1c1c;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.clients-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.clients-list-item {
+  display: flex;
+  gap: 20px;
+
+  @include media(desktop) {
+    align-items: center;
+    gap: 80px;
+  }
+}
+
+.light-bulb-icon {
+  @include media(desktop) {
+    width: 32px;
+    height: 35px;
+  }
+}
+
+.clients-item-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1c1c1c;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}

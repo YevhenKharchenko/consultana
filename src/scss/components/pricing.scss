@@ -1,0 +1,136 @@
+.pricing-section {
+  padding-bottom: 40px;
+
+  @include media(desktop) {
+    padding-bottom: 96px;
+  }
+}
+
+.pricing-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  }
+}
+
+.pricing-list-item {
+  width: 100%;
+  max-width: 335px;
+
+  @include media(desktop) {
+    max-width: 427px;
+  }
+}
+
+.pricing-item-header {
+  background: #d9d9d9;
+  border-radius: 20px 20px 0 0;
+  padding: 10px;
+}
+
+.pricing-header-title {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #197587;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 32px;
+  }
+}
+
+.pricing-header-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #48949f;
+
+  @include media(desktop) {
+    font-size: 32px;
+  }
+}
+
+.pricing-item-container {
+  background: #f1f1f1;
+  border-radius: 0 0 20px 20px;
+  padding: 10px;
+  min-height: 332px;
+  display: flex;
+  flex-direction: column;
+
+  @include media(desktop) {
+    min-height: 334px;
+  }
+}
+
+.pricing-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pricing-item-text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+}
+
+.pricing-first-item {
+  align-items: start;
+}
+
+.check-icon {
+  fill: #b5b5b5;
+  min-width: 30px;
+
+  @include media(desktop) {
+    width: 37px;
+    height: 38px;
+    min-width: 37px;
+  }
+}
+
+.pricing-item-text {
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1c1c1c;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.pricing-btn {
+  border: 1px solid #2aaace;
+  border-radius: 15px;
+  padding: 16px 32px;
+  font-family: 'Libre Caslon Text', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #044454;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+
+  @include media(desktop) {
+    padding: 10px 32px;
+    font-size: 24px;
+  }
+}
