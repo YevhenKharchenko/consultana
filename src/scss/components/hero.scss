@@ -63,10 +63,6 @@
   margin-right: auto;
   max-width: max-content;
   width: 100%;
-
-  @include media(desktop) {
-    padding: 20px 40px;
-  }
 }
 
 .hero-btn {
@@ -82,5 +78,6 @@
   justify-content: center;
 
   @include media(desktop) {
+    padding: 20px 40px;
   }
 }
