@@ -2,32 +2,26 @@
 }
 
 .clients-bg-wrapper {
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/clients/clients-bg-mob.png);
-  background-repeat: no-repeat;
-  background-position: top 0px right 0px;
-  background-size: auto;
 
   @include media(desktop) {
-    padding-bottom: 96px;
+    padding-bottom: 120px;
     max-width: 1440px;
-    background-image: url(../img/clients/clients-bg-desk.png);
   }
 }
 
 .clients-text {
-  font-family: 'Libre Caslon Text', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #1c1c1c;
-  margin-bottom: 24px;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 32px;
 
   @include media(desktop) {
-    font-size: 24px;
+    margin-bottom: 56px;
   }
 }
 
@@ -35,37 +29,30 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 16px;
+  gap: 20px;
 
   @include media(desktop) {
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
   }
 }
 
 .clients-list-item {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 12px;
 
   @include media(desktop) {
-    align-items: center;
-    gap: 80px;
-  }
-}
-
-.light-bulb-icon {
-  @include media(desktop) {
-    width: 32px;
-    height: 35px;
   }
 }
 
 .clients-item-text {
-  font-family: 'Libre Caslon Text', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #1c1c1c;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
 
   @include media(desktop) {
-    font-size: 24px;
   }
 }

@@ -62,3 +62,18 @@ html {
     font-size: 40px;
   }
 }
+
+.section-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    margin-bottom: 56px;
+  }
+}
