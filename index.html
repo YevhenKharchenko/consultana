@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/consultana/favicon.png" />
+    <title>Consultana</title>
+    
+    <script type="module" crossorigin src="/consultana/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/consultana/assets/index-8b20299a.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="header-bg-wrapper">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#home">Home</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#services">Services</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#studies"
+              >Case Studies</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#pricing"
+              >Subscriptions</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#about">About Us</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="nav-btn" type="button" aria-label="Open mobile menu">
+          <svg class="menu-icon" width="36" height="30">
+            <use href="/consultana/assets/sprite-f5b449fb.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <div class="container">
+    <button class="close-btn" type="button" aria-label="Close mobile menu">
+      <svg class="close-icon" width="36" height="36">
+        <use href="/consultana/assets/sprite-f5b449fb.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="context-nav">
+      <ul class="context-nav-list">
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#services">Services</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#studies"
+            >Case Studies</a
+          >
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#pricing"
+            >Subscriptions</a
+          >
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#about">About Us</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-wrapper">
+    <div class="container hero-container">
+      <h1 class="hero-title">Power Up Your Gaming Venture</h1>
+      <p class="hero-text">
+        From indie games and esports teams to escape rooms and content creators,
+        Consultana helps you grow, optimize, and thrive.
+      </p>
+      <div class="hero-btn-wrapper">
+        <a class="hero-btn" href="#contact">Get a Free Consultation</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section clients-section" id="clients">
+  <div class="clients-bg-wrapper">
+    <div class="container clients-container">
+      <h2 class="section-title clients-title">Who We Help</h2>
+      <p class="section-subtitle">Tailored Expertise for Every Gaming Vision</p>
+      <p class="clients-text">
+        Whether you're launching a quest room, building a new indie game,
+        scaling an esports team, or growing your gaming blog, we understand your
+        world.
+      </p>
+      <ul class="clients-list">
+        <li class="clients-list-item">
+          <img
+            class="clients-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAuCAYAAAC8jpA0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK5SURBVHgB1VjRcdNAEN0VSb5dgvPHMNiYDpIKsCqIqQCoAFEBpoKECmQqSEowgeEXleDPTCbx5fY0jnWnk04n72om78MjrXTSztPevudFGArvVpegYBGxYg2JOod1unEvJDAEJvkiMmHCDB7xq+8CgjRe52M4wWt9NIY+eFDv4V+6robkmT5JLqBvwoRX+N0NyTJdsvzfDqpvcJtmjWve5meQmC+zx1bX9t/0Zncqy/QxZE6kaE2YQMkpuLFiaNe2XNLEMuKFHcSs01qlv4a1DM5g+uv5WXJJH+OlE9Esf/gJXWBKQTn3qiXM8hEdySRNLY7Ysd6pvkAMElNa1R49gi18pgOZjThd0eYbP58jXMHv+UeIxTTP9OJqPW+04JzyMz3J5+C2OHRqtCsSWIKH7WEU8R5G0Ad3Zp0r46OjxgX9vcJKl0cBVbZLgTiHWBhhUuNKZEPs+5k+1CtslV2/tClJNGJALRNUZgfVD01KkXhvRr9RCQL17n6Tz7oIRBAtwlRPmssrBASiFQFhwtrNnF5hml/pV1RfblqWzyNbmKyunT6vWZ6f7k5sprm9QotANCccFqY9016WcdFJen1s79bWBSIOHmHaJx34JEE0lQJha8jo16vLciqskPmV9AqmfnsqIrHsJFy+ylx0Ph/d/EeLRAzMw3UftR/0yTiz23RZvxYA7ZMG+UfjFRBzK+r5JJ1ACdZKIdB9esCviMxeAZhxZMpA2CuYI/a5h7BX4J57lElLegUOL+NgX9NSXkF87sHtFQaZe3B7BaG5R/2PLZdXkPIy4OvT9T+Tcdip2KBzDw6vIDz38CvioV5B2MvwD2sG8DIvcu7Bn3RZBoUV8whEJ9SFqWXucSgGn3twYPC5BxcE5x5ySQcEohUBYZLtHuJzDykIzD3k+zSXl7EeKQ2xuYc0mOceTyXarbyI7A1DAAAAAElFTkSuQmCC"
+            alt="Hexagon"
+            width="44"
+            height="46"
+            loading="lazy"
+          />
+          <p class="clients-item-text">Game Studios</p>
+        </li>
+        <li class="clients-list-item">
+          <img
+            class="clients-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAuCAYAAAC4e0AJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMBSURBVHgB7ZlRkpNAEEC70cqfVvYE4p8/ibmB8QSGExhPoHuCrCcwnmDxBCQncD2B2WhZfuIJzPfqMnYDJcwww5CQWUjVvqpUEZiEN0PTPQMId8UkmsJfmIGHr+ibb2i1ASHew7dgBQ1AcI0fDeExLmjrXePfCBE06YBb+Uz8M21NYD92sJ2d2Rp54JJHsAS9eKz5lBlSmPlg4SG4YhTNAfG1tA9hBX8opn8EG2n/eE3tRKj8ww4suJMHRRxI+jq4qDTTiQu4gk1glXcT8xOK9QR/l/bEFMNPK+30Ix6DJ16SfAwWXMW8HOdII6kyimZtxBk3YXNLebx8TYX4VWmD+EHZYxafUEeTfEBuIISfWRuHMV8DF6xEKlR68WeUcQYY/RdnBrCAcXQO22DpNlWauNFkEr24oUbQVaPj3chnqbLcAT+7eXMKcd/4HwOYdyOfIj4q30MYrS7TkNKJC+WmR3zSnbyXVl85fBDmlGI1I0414gF9Kn/hBHxubcJFKKEJmBWS3mqKG7iQH68XNILyDFJ4X7VtvwdXlGWoeIlP2uM14sxxKyyLg7hQ9uqrqwpPxBLqtKCrhuKatldp54rj0zykMhDC4+V5kzjn7yZkqdI859cUvuOETZ14w1JvJ12BFVAotg+buxAfr9/SOZbSPk+ctQsb1+LpfYAsroQT1QjKVofLtxFPl4ceS81rWtG0mj5V4rxGHJht2og3Kf1mpHPsf8N2Jc7TA+Uc+418m5WPWbzudzR9EF8qOT+nubwT8foKaqOZfA/FGbt8T8WZevkeizNm+Z6LM3r5ExBnqvInIs7I8vwgCOlRg0wvxRm0nLy34kwxPaBHCXBC4kwhL/CFdESI8z6LM4U8KgK21yodizOlkQfNA38DPRBnSiNPszdZJNR2oCfijFfaCqEyPVU60CNxRs7z2ZpR95wwpPy/ydeS8rGOxJlqhTV1QEt34ox+btOoA92KM+ZZJXfgFi+pxVQ5sqMa8KbpK3aX2BcjaSfStxNDiv1Yt5a85wD+Aefux/vvJtzWAAAAAElFTkSuQmCC"
+            alt="Wrench"
+            width="46"
+            height="46"
+            loading="lazy"
+          />
+          <p class="clients-item-text">Esports Startups</p>
+        </li>
+        <li class="clients-list-item">
+          <img
+            class="clients-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAuCAYAAACBHPFSAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASNSURBVHgBzVldUtswEF6Zn7cyuUHNW6dTUnOChhM0PgFwAugJGk4APQHpCZycAHoCXOh0+oZ7AvLIMGB1V0pILK1sOShMvxkSYsmK1vr274uAVaE7/gogD/C/GP8KkDCCNXkCeTqBwBCwCnRHp/h6zIzkcN3fhcCIIDR2sj7wBhAS6GbHEBjhjQDo145K8RkCI7wRwtiklD+r49CDJOtAQIQ1QlOpusE1OMDXqjOX6lowhD4Jk0o5RqMcI1NeuRqYUmGNMKkEcqyvT9+f54WlVDgjkqwHJpUizA36fWjND0ipcEY8WZsqFJUIlOAkXFZGA1IqnBFCfKpeMCm0OkqFMUJTKTZWHtZ+JgSiVBgj6qg0wwopFcYIk0rC2OzzdYtSSQhKzQvAGBfbivYxwybQDh1cpZofSrkHv9JLayZtuBR3lWv6dApoAyH/wgPS809aqI/q4rsshk1xASavl0OBleq2c3RndKGc+uWYwCM+rN9prukUzgCE/N4w/g3CoAPruG883YiNLEsDN3idDmqn3KSYALE5CoMOBpX+Or7EVmvUlqfE0RLv4fyAAxmaZEMVYqV4C/6w/U9AvA5mhTkdQOc88d7UMsiVUw6857/PEqRPZg9EtxGWypdgGxJDhHxTffJ/gO74SPHfpv0EovKHJpK2kiZxMTuHB5nOwtmrgsL+G3FuUWgGKQ/Rx4Y6OmGYgkhSA18wUxMVvbrjfXhNUMDZElcOAwq1XzSAPthqRzcb4GWeRhLOViW7VPfgVEtAhfAIxxb2wEs21GYKQQvFzGiB9NpbCb0o6W4o+vSY0YkKzdfpmTng1p0SXPDJuSBCfuEWXBqKrpLW4/0yQr/M+QfXLJ7V0SuUITvZAZ78ueM7KIHWalV+CiCdSukKcXL7xT7SHd0yaxeYqw59cpVfKU7HqKKXVRd14KUlCz0gcw2qGCJHJczAv5+gp/3AZNhHCCqEKUgVAQvf6e2aog3GydcNTakt9GardIwapFADLTs7YSQ87NSC5AyTpqJVYvU3gmK4FW6jDEKgnOpTc3Tgg2oRvOBvBEclLL6abps6bj20A5uU6oEnWtDJOGKKIC7no8KNKuDu6A5D8y2+S2xLz9VpOrE8pfyM4KgkxJCdSxUxFW4gB7CYfQU2QFRIumhiUyr2pZSfEb5U0nX/Fbhzh7tP0VFuKUp50qmBSkQfUjF07eMBPCXK0ov0UlHO0KWkKY3yaDaCtKI6Ks3r/h5zN/5qioUb36fEVp9SGlKn1mtjaECzEU9M4plRier+0iX3YOGmG5eR1qFYhQPvk0M8xVP1sDhKeei1HnQyf4NDKt0rA4j7XHU5UW0jVZ6LiZAUDtepCFynxNO8p0DQnlLNRpBeamJTOS8nd+aLbaMFOhUq7KQViQhEL6xmxUfj+3vQAB/HnjCLMkUf1f34Q3tT4UbjN/20RkBLar+fgYcRxvHaKJSA3NC4WCB6US/SJNIJ9tQqaDYiAgqbfKWq6/7dpUW2eZ/i0mcLVBcbJU/fzg4leeollJPHanHdNobrsXWLegSaTpOpqjHwqZL/AXgrxYDgd6x7AAAAAElFTkSuQmCC"
+            alt="Star"
+            width="48"
+            height="46"
+            loading="lazy"
+          />
+          <p class="clients-item-text">Quest Room Owners</p>
+        </li>
+        <li class="clients-list-item">
+          <img
+            class="clients-img"
+            src="data:image/png;base64,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"
+            alt="Helix"
+            width="44"
+            height="46"
+            loading="lazy"
+          />
+          <p class="clients-item-text">Gaming Influencers</p>
+        </li>
+        <li class="clients-list-item">
+          <img
+            class="clients-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAuCAYAAAC8jpA0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOPSURBVHgB7ZlRUtswEIZ/mZS3tukNzBsPxbgnAE6AfQLSEwROAJyg4QSEE9g5AbkBaeh0+lb3BIS3DkOsrmwTYslJZEvJDDP9MmGQIscbZVe7+4fBJn50iCnrguGQRm16TsAxxBa/wigcwhIMttiPr8nAzsLXOXq4D85gATtGe/E3+nu6ch1Hnwz/CkPMjd6LOmDsWnt9yo/ww8xVHBjDTtQp2lHOaUf5jfoaO4chLZiSB938uI/vMxfow4tQ+mAMPgwx22k/aitzKYtLY45YWtGm61wYYOoeqtE8fSyNt+jYs8yre/iRX2nEclw0YersN9rt4qzPjfbiO6TmvqYN4zG5EWrjxSM4/MihIyug4eYMNsPHFIHw6bouUY8n+z5t4Zyeh2oMOXH8DEfZvEWqz+knvoMm/AqTyvlxeEqBd4G/Db7VbfZbnmrVurkJo1C4SX1X8WJlyrJ7bIb/Rm+KN2l0dSCKtumVCQXRCJsiT+/ubJyqS6qNTtltaezFCeXeC4yPb7Au8maiq1NO6LqHSwmij72srbKP6C/z7kernHCo3k2gC6M+0Lbh3uB8aUOs4DzkpZYX9ciirv51/FORLMzYJf+tyHiLofZtHHZy9xBpVhgi0vf885l/oYWXyrWpRuetwzaCCsOuFDvEU9hHBosVr4G4OM2OyCUOpF7QTinL2YGkByTZBq5ANxAn0s0+wg7lAoqRGqXBaqOF38kdtFMjeJfB+J/SmJO77K5uw1ozw7YrIjilnXCy9r+8I5wNYQPRqTPM6yZtCsxbfI4GtDGqqz6RJEEVKCsiWCQTF3qQ3wXN6m0ZIUGk7K7GvScUkDsO3mUBVueiELYQwf+cvZ/u8dl+6RF1SUQnbL0OEe3YM70v9ONkkSyWzP7jdOQx8mEnvdFOKC597eIxoUeicU3WR2Inqz+EhMayGHqJI1dezipVz3HQTE31Bl0SHgPpTCeDWK9xseXFvDQmYdNcgBSInX3PSGnkhxXisZ8VW158WriXcfq30wR8oNNHVk9VSGgRH8wcc6MzP9RM6+KDeYMTGLIeUV0UWULxryq2OO/AkDWJ6uFFMRoWovr5wvUNMBXVXWVuKv1kIY5MnetqsP5ufK2i+jx+Flw6NFNcU+eY7vGot1adWtSN6//E1gjeaySqF7xRhYlbKuhfaEk+bF1Udx6cXASvOE/rQ8bxM6UKzEX1S8DY+En2PvfHg38MYTd0vjBGFQAAAABJRU5ErkJggg=="
+            alt="Puzzle"
+            width="44"
+            height="46"
+            loading="lazy"
+          />
+          <p class="clients-item-text">Gaming SaaS Companies</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section services-section" id="services">
+  <div class="services-bg-wrapper">
+    <div class="container services-container">
+      <h2 class="section-title services-title">Core Services</h2>
+      <p class="section-subtitle">What We Do</p>
+      <ul class="services-list">
+        <li class="services-list-item services-item-top-row">
+          <h3 class="services-item-title">Game Development Strategy</h3>
+          <p class="services-item-text">
+            Production, monetization, launch support
+          </p>
+        </li>
+        <li class="services-list-item services-item-top-row">
+          <h3 class="services-item-title">Content & Blog Growth</h3>
+          <p class="services-item-text">Branding, SEO, monetization</p>
+        </li>
+        <li class="services-list-item services-item-top-row">
+          <h3 class="services-item-title">Esports Business Scaling</h3>
+          <p class="services-item-text">
+            Team structure, tournaments, sponsorships
+          </p>
+        </li>
+        <li class="services-list-item services-item-bottom-row">
+          <h3 class="services-item-title">Escape Room Business Setup</h3>
+          <p class="services-item-text">
+            Tech, design, booking, and operations
+          </p>
+        </li>
+        <li class="services-list-item services-item-bottom-row">
+          <h3 class="services-item-title">Gamification Consulting</h3>
+          <p class="services-item-text">
+            Add engaging mechanics to your app or platform
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section studies-section" id="studies">
+  <div class="studies-bg-wrapper">
+    <div class="container studies-container">
+      <h2 class="section-title studies-title">Featured Case Studies</h2>
+      <p class="section-subtitle">Real Projects, Real Wins</p>
+      <ul class="studies-list">
+        <li class="studies-list-item">
+          <p class="studies-item-text">
+            PixelDuel: From concept to App Store success
+          </p>
+        </li>
+        <li class="studies-list-item">
+          <p class="studies-item-text">EscapeGrid: 300% increase in bookings</p>
+        </li>
+        <li class="studies-list-item">
+          <p class="studies-item-text">
+            GameForge Blog: 10x traffic in 6 months
+          </p>
+        </li>
+      </ul>
+      <div class="studies-btn-wrapper">
+        <a class="studies-btn" href="#contact">View All Case Studies</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section approach-section" id="approach">
+  <div class="approach-bg-wrapper">
+    <div class="container approach-container">
+      <h2 class="section-title approach-title">Our Approach</h2>
+      <p class="section-subtitle">How We Work With You</p>
+      <div class="approach-content-wrapper">
+        <picture>
+          <source
+            srcset="/consultana/assets/approach-steps-desk-40e24404.png "
+            media="(min-width: 1440px)"
+            width="1280"
+            height="48" />
+          <source
+            srcset="/consultana/assets/approach-steps-mob-ef2af35d.png "
+            width="56"
+            height="596" />
+          <img
+            class="approach-img"
+            src="/consultana/assets/approach-steps-mob-ef2af35d.png"
+            alt="Steps"
+            width="56"
+            height="596"
+            loading="lazy"
+        /></picture>
+        <ul class="approach-list">
+          <li class="approach-list-item">
+            <p class="approach-item-text">
+              <span class="approach-span-mob"
+                >Choose a coaching package or single-session review</span
+              ><span class="approach-span-desk">Discovery Call</span>
+            </p>
+          </li>
+          <li class="approach-list-item">
+            <p class="approach-item-text">
+              <span class="approach-span-mob"
+                >Share your portfolio or Figma file</span
+              ><span class="approach-span-desk">Strategy Proposal</span>
+            </p>
+          </li>
+          <li class="approach-list-item">
+            <p class="approach-item-text">
+              <span class="approach-span-mob"
+                >Join a video session for live feedback and next steps</span
+              ><span class="approach-span-desk"
+                >Roadmap & Execution Support</span
+              >
+            </p>
+          </li>
+          <li class="approach-list-item">
+            <p class="approach-item-text">
+              <span class="approach-span-mob"
+                >Share your portfolio or Figma file</span
+              ><span class="approach-span-desk">Follow-up Optimization</span>
+            </p>
+          </li>
+          <li class="approach-list-item">
+            <p class="approach-item-text">
+              (Optional) Get matched with a mentor for ongoing support
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section testimonials-section" id="testimonials">
+  <div class="testimonials-bg-wrapper">
+    <div class="container testimonials-container">
+      <h2 class="section-title testimonials-title">Testimonials</h2>
+      <p class="section-subtitle">What Our Members Say</p>
+      <ul class="testimonials-list">
+        <li class="testimonials-list-item">
+          <img
+            src="/consultana/assets/testimonials-riley-d9b28dba.png"
+            alt="Avatar"
+            width="88"
+            height="88"
+            loading="lazy"
+          />
+          <div class="testimonials-item-text-wrapper">
+            <p class="testimonials-item-text">
+              "Consultana helped us avoid critical early mistakes and guided our
+              launch strategy perfectly. Highly recommend!"
+            </p>
+            <p class="testimonials-item-name">– Riley N.</p>
+          </div>
+        </li>
+        <li class="testimonials-list-item">
+          <img
+            src="/consultana/assets/testimonials-kareem-b180ce82.png"
+            alt="Avatar"
+            width="88"
+            height="88"
+            loading="lazy"
+          />
+          <div class="testimonials-item-text-wrapper">
+            <p class="testimonials-item-text">
+              "Our quest room traffic doubled after working with them. They know
+              what works!"
+            </p>
+            <p class="testimonials-item-name">– Kareem M.</p>
+          </div>
+        </li>
+        <li class="testimonials-list-item">
+          <img
+            src="/consultana/assets/testimonials-sienna-1bd81412.png"
+            alt="Avatar"
+            width="88"
+            height="88"
+            loading="lazy"
+          />
+          <div class="testimonials-item-text-wrapper">
+            <p class="testimonials-item-text">
+              "The insights we received on player engagement were eye-opening.
+              Total game-changer."
+            </p>
+            <p class="testimonials-item-name">– Sienna F.</p>
+          </div>
+        </li>
+        <li class="testimonials-list-item">
+          <img
+            src="/consultana/assets/testimonials-julian-48055873.png"
+            alt="Avatar"
+            width="88"
+            height="88"
+            loading="lazy"
+          />
+          <div class="testimonials-item-text-wrapper">
+            <p class="testimonials-item-text">
+              "We had the talent, but lacked direction. Consultana gave us the
+              clarity and push we needed."
+            </p>
+            <p class="testimonials-item-name">– Julian C.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section choose-section" id="choose">
+  <div class="choose-bg-wrapper">
+    <div class="container choose-container">
+      <h2 class="section-title choose-title">Why Choose Consultana</h2>
+      <p class="section-subtitle">Built for Gaming. Backed by Strategy.</p>
+      <ul class="choose-list">
+        <li class="choose-list-item">
+          <p class="choose-item-text">10+ years in the gaming industry</p>
+        </li>
+        <li class="choose-list-item">
+          <p class="choose-item-text">B2B and indie-friendly pricing</p>
+        </li>
+        <li class="choose-list-item">
+          <p class="choose-item-text">
+            Custom dashboards and performance tracking
+          </p>
+        </li>
+        <li class="choose-list-item">
+          <p class="choose-item-text">Agile, remote-first support team</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section pricing-section" id="pricing">
+  <div class="pricing-bg-wrapper">
+    <div class="container pricing-container">
+      <h2 class="section-title pricing-title">Subscription Plans</h2>
+      <p class="section-subtitle">Flexible Packages to Fit Your Vision</p>
+      <ul class="pricing-list">
+        <li class="pricing-list-item">
+          <p class="pricing-title">Starter Quest</p>
+          <p class="pricing-text">$499/month</p>
+          <ul class="pricing-item-list">
+            <li class="pricing-item-list-el">2 calls</li>
+            <li class="pricing-item-list-el">roadmap</li>
+            <li class="pricing-item-list-el">blog audit</li>
+          </ul>
+          <div class="pricing-btn-wrapper">
+            <a class="pricing-btn" href="#contact">Choose Your Plan</a>
+          </div>
+        </li>
+        <li class="pricing-list-item">
+          <p class="pricing-title">Power-Up</p>
+          <p class="pricing-text">$999/month</p>
+          <p class="pricing-item-text">Full funnel audit + content plan</p>
+          <div class="pricing-btn-wrapper">
+            <a class="pricing-btn" href="#contact">Choose Your Plan</a>
+          </div>
+        </li>
+        <li class="pricing-list-item">
+          <p class="pricing-title">Pro Play</p>
+          <p class="pricing-text">Custom</p>
+          <ul class="pricing-item-list">
+            <li class="pricing-item-list-el">On-call support</li>
+            <li class="pricing-item-list-el">analytics dashboard</li>
+            <li class="pricing-item-list-el">team workshops</li>
+          </ul>
+          <div class="pricing-btn-wrapper">
+            <a class="pricing-btn" href="#contact">Choose Your Plan</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section highlights-section" id="highlights">
+  <div class="highlights-bg-wrapper">
+    <div class="container highlights-container">
+      <h2 class="section-title highlights-title">Gaming Blog Highlights</h2>
+      <p class="section-subtitle">Top Articles This Month</p>
+      <ul class="highlights-list">
+        <li class="highlights-list-item">
+          <picture>
+            <source
+              srcset="/consultana/assets/highlights-img1-desk-467d8579.png "
+              media="(min-width: 1440px)"
+              width="304"
+              height="260" />
+            <source
+              srcset="/consultana/assets/highlights-img1-mob-ce9917c3.png "
+              width="343"
+              height="260" />
+            <img
+              class="highlights-img"
+              src="/consultana/assets/highlights-img1-mob-ce9917c3.png"
+              alt="Girl"
+              width="343"
+              height="260"
+              loading="lazy"
+          /></picture>
+          <p class="highlights-item-text">“Gamifying SaaS: Case Studies”</p>
+        </li>
+        <li class="highlights-list-item">
+          <picture>
+            <source
+              srcset="/consultana/assets/highlights-img2-desk-ff55c56a.png "
+              media="(min-width: 1440px)"
+              width="304"
+              height="260" />
+            <source
+              srcset="/consultana/assets/highlights-img2-mob-ed59fb7e.png "
+              width="343"
+              height="260" />
+            <img
+              class="highlights-img"
+              src="/consultana/assets/highlights-img2-mob-ed59fb7e.png"
+              alt="Laptop"
+              width="343"
+              height="260"
+              loading="lazy"
+          /></picture>
+          <p class="highlights-item-text">
+            “How Indie Games Break Through in 2025”
+          </p>
+        </li>
+        <li class="highlights-list-item">
+          <picture>
+            <source
+              srcset="/consultana/assets/highlights-img3-desk-71c41cd4.png "
+              media="(min-width: 1440px)"
+              width="304"
+              height="260" />
+            <source
+              srcset="/consultana/assets/highlights-img3-mob-af3d8e76.png "
+              width="343"
+              height="260" />
+            <img
+              class="highlights-img"
+              src="/consultana/assets/highlights-img3-mob-af3d8e76.png"
+              alt="Sign"
+              width="343"
+              height="260"
+              loading="lazy"
+          /></picture>
+          <p class="highlights-item-text">
+            “What Makes a Quest Room Immersive?”
+          </p>
+        </li>
+      </ul>
+      <div class="highlights-btn-wrapper">
+        <a class="highlights-btn" href="#contact">Browse Full Library</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section signup-section" id="signup">
+  <div class="signup-bg-wrapper">
+    <div class="container signup-container">
+      <h2 class="section-title signup-title">Newsletter Signup</h2>
+      <p class="section-subtitle">Get Strategic Tips Directly to Your Inbox</p>
+      <form class="signup-form">
+        <label class="signup-form-label" for=""
+          ><input
+            class="signup-form-input"
+            type="email"
+            placeholder="Email address"
+            name="email"
+        /></label>
+        <button type="submit" class="signup-form-btn">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      <section class="section about-section" id="about">
+  <div class="about-bg-wrapper">
+    <div class="container about-container">
+      <h2 class="section-title about-title">About Us</h2>
+      <p class="section-subtitle">Who We Are</p>
+      <div class="about-content-wrapper">
+        <p class="about-text">
+          Consultana is a Limited Liability Company created by a team of gamers,
+          developers, and business strategists. We believe in helping creators
+          and teams unlock their full potential using actionable advice, strong
+          data, and deep gaming industry insight.
+        </p>
+        <picture>
+          <source
+            srcset="/consultana/assets/about-img-desk-8692158c.png "
+            media="(min-width: 1440px)"
+            width="387"
+            height="294" />
+          <source
+            srcset="/consultana/assets/about-img-mob-ddad9b00.png "
+            width="320"
+            height="244" />
+          <img
+            class="about-img"
+            src="/consultana/assets/about-img-mob-ddad9b00.png"
+            alt="Display"
+            width="320"
+            height="244"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section cta-section" id="cta">
+  <div class="cta-bg-wrapper">
+    <div class="container cta-container">
+      <h2 class="section-title cta-title">Call to Action</h2>
+      <p class="section-subtitle">Let’s Build Your Next Milestone</p>
+      <p class="cta-text">Book a free strategy call and let’s get to work.</p>
+      <div class="cta-btn-wrapper">
+        <a class="cta-btn" href="#home">Schedule Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section contact-section" id="contact">
+  <div class="contact-bg-wrapper">
+    <div class="container contact-container">
+      <h2 class="section-title contact-title">Contact Us</h2>
+      <p class="section-subtitle">We’d Love to Hear From You</p>
+      <a class="contact-email-link" href="mailto:info@consultana.site"
+        >info@consultana.site</a
+      >
+      <ul class="contact-list">
+        <li class="contact-list-item">
+          <a class="contact-item-link" href="">
+            <svg class="contact-icon" width="36" height="36">
+              <use href="/consultana/assets/sprite-f5b449fb.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="contact-list-item">
+          <a class="contact-item-link" href="">
+            <svg class="contact-icon" width="36" height="36">
+              <use href="/consultana/assets/sprite-f5b449fb.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="contact-list-item">
+          <a class="contact-item-link" href="">
+            <svg class="contact-icon" width="36" height="36">
+              <use href="/consultana/assets/sprite-f5b449fb.svg#icon-discord"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="container footer-container">
+    <nav class="footer-nav">
+      <ul class="footer-list">
+        <li class="footer-list-item">
+          <a class="footer-link" target="_blank" href="policies.pdf#page=1"
+            >Privacy Policy</a
+          >
+        </li>
+        <li class="footer-list-item">
+          <a class="footer-link" target="_blank" href="policies.pdf#page=7"
+            >Terms & Conditions</a
+          >
+        </li>
+        <li class="footer-list-item">
+          <a class="footer-link" target="_blank" href="policies.pdf#page=11"
+            >Cookies Policy</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <p class="footer-text">© 2025 consultana.site – All rights reserved</p>
+  </div>
+</footer>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <div class="cookie-banner-content-wrapper">
+    <div class="cookie-banner-text-wrapper">
+      <h2 class="cookie-banner-title">Cookies Policy</h2>
+      <p class="cookie-banner-text">
+        We use cookies to improve your experience on our website. By browsing
+        this website, you agree to our use of cookies.
+      </p>
+    </div>
+    <div class="cookie-banner-buttons">
+      <button class="cookie-accept-btn" id="cookie-accept">
+        ACCEPT COOKIES
+      </button>
+      <button class="cookie-decline-btn" id="cookie-decline">
+        DECLINE COOKIES
+      </button>
+    </div>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
