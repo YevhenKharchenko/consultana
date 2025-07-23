@@ -10,6 +10,11 @@
   @include media(desktop) {
     padding-bottom: 120px;
     max-width: 1440px;
+    background-image: url(../img/studies/studies-top-gradient.png),
+      url(../img/studies/studies-bottom-gradient.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -40px right 0px, bottom -70px left 0px;
+    background-size: auto, auto;
   }
 }
 

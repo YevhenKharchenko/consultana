@@ -10,6 +10,11 @@
   @include media(desktop) {
     padding-bottom: 120px;
     max-width: 1440px;
+    background-image: url(../img/choose/choose-top-gradient.png),
+      url(../img/choose/choose-bottom-gradient.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -100px right 0px, bottom -90px left 0px;
+    background-size: auto, auto;
   }
 }
 

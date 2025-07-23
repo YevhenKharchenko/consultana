@@ -1,105 +1,45 @@
 .contact-section {
-  padding-bottom: 40px;
-
-  @include media(desktop) {
-    padding-bottom: 96px;
-  }
 }
 
-.contact-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+.contact-bg-wrapper {
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 20px;
-  }
-}
-
-.contact-text-wrapper {
-}
-
-.contact-text {
-  font-family: 'Libre Caslon Text', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #1c1c1c;
-  margin-bottom: 24px;
-
-  @include media(desktop) {
-    font-size: 32px;
-  }
-}
-
-.contact-email-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 24px;
-
-  @include media(desktop) {
-    gap: 32px;
-  }
-}
-
-.contact-email-text {
-  font-family: 'Libre Caslon Text', sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  color: #1c1c1c;
-
-  @include media(desktop) {
-    font-size: 24px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+    background-image: url(../img/contact/contact-gradient.png);
+    background-repeat: no-repeat;
+    background-position: bottom -50px right 0px;
+    background-size: auto;
   }
 }
 
 .contact-email-link {
-  font-family: 'Libre Caslon Text', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  color: #1c1c1c;
-
-  @include media(desktop) {
-    font-size: 24px;
-  }
-}
-
-.contact-btn-wrapper {
+  font-size: 20px;
+  color: #fff;
   display: flex;
-
-  @include media(desktop) {
-    max-width: max-content;
-    margin-left: 0;
-    margin-right: auto;
-  }
-}
-
-.contact-btn {
-  background: #f25b54;
-  border-radius: 15px;
-  padding: 16px 32px;
-  font-family: 'Libre Caslon Text', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  color: #f8f8f8;
-  display: flex;
-  align-items: center;
   justify-content: center;
-
-  @include media(desktop) {
-    font-size: 24px;
-  }
+  align-items: center;
+  margin-bottom: 32px;
 }
 
-.contact-img {
-  @include media(desktop) {
-    min-width: 650px;
-  }
+.contact-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.contact-list-item {
+}
+
+.contact-item-link {
+}
+
+.contact-icon {
 }
